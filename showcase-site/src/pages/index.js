@@ -5,7 +5,7 @@ import * as React from 'react'
 const IndexPage = () => {
   return (
     <main>
-      <h1 class="text-2xl">Hello World!</h1>
+      <h1 class="text-2xl">Hallo Welt. Das wird meine Showcase Seite auf der ich meine Projekte vorstelle.</h1>
     </main>
   )
 }
