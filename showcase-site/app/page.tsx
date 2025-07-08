@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="flex flex-col p-4 items-center gap-4">
       <Message />
-      <Button text="Klick mich!" onButtonClicked={() => setCount(count + 1)} />
+      <Button onClick={() => setCount(count + 1)}>Klick mich!</Button>
       <p>Knopf gedrückt: {count}</p>
     </div>
   );
